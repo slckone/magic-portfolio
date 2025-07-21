@@ -146,6 +146,23 @@ export const Header = () => {
                   />
                 </>
               )}
+              {routes["/slck1"] && (
+                <>
+                  <ToggleButton
+                    className="s-flex-hide"
+                    prefixIcon="rocket"
+                    href="/slck1"
+                    label={work.label}
+                    selected={pathname.startsWith("/slck1")}
+                  />
+                  <ToggleButton
+                    className="s-flex-show"
+                    prefixIcon="rocket"
+                    href="/slck1"
+                    selected={pathname.startsWith("/slck1")}
+                  />
+                </>
+              )}
               {display.themeSwitcher && (
                 <>
                   <Line background="neutral-alpha-medium" vert maxHeight="24" />
