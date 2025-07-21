@@ -204,7 +204,7 @@ export default function About() {
                     <Text variant="body-default-s" onBackground="brand-weak" marginBottom="m">
                       {experience.role}
                     </Text>
-                    <Column as="ul" gap="16">
+                    <Column as="ul" gap="10">
                       {experience.achievements.map((achievement: JSX.Element, index: number) => (
                         <Text
                           as="li"
@@ -273,7 +273,7 @@ export default function About() {
                 as="h2"
                 id={about.technical.title}
                 variant="display-strong-s"
-                marginBottom="40"
+                marginBottom="m"
               >
                 {about.technical.title}
               </Heading>

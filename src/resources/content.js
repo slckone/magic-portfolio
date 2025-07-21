@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Rieddiwaan",
+  lastName: "Laatoe",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Graphic Web Designer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "rlaatoe@gmail.com",
+  location: "Africa/Johannesburg", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Afrikaans"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -28,19 +28,19 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
+    name: "Download CV",
+    icon: "document",
+    link: "/images/CV_Resume.pdf",
+  },
+  {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/slck1one",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/rlaatoe",
   },
   {
     name: "Email",
@@ -58,12 +58,12 @@ const home = {
   headline: <>Building bridges between design and code</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Download <strong className="ml-4">My CV</strong></>,
+    href: "/images/CV_Resume.pdf",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Rieddiwaan Laatoe, a graphic designer at   <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.10em" }}/>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -83,16 +83,18 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/rieddiwaan-laatoe-4nyzdj/15min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Creative and detail-oriented Graphic & Web Designer with over 15 years of hands-on experience in digital
+        design, DTP, motion graphics, and web development. Proven track record in managing branding, print
+        production, and team collaboration across fast-paced environments. Passionate about delivering clean,
+        innovative visual solutions that elevate brand presence. Skilled in modern design tools and cross-functional
+        communication.
       </>
     ),
   },
@@ -100,55 +102,101 @@ const about = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
-      {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        {
+        company: "Fabi Sportswear",
+        timeframe: "04/2022 - 12/2024",
+        role: "Senior Graphic Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed sportswear kits across soccer, netball, rugby, and cricket categories.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Built layout templates to streamline production and increase speed-to-market.
+          </>,
+            <>
+            Created original artwork for sports teams, events, and promotional clothing.
+          </>,
+          <>
+            Collaborated with sales reps on custom client orders and personalized gear.
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+      
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "MSB Sportswear",
+        timeframe: "08/2018 - 03/2022",
+        role: "Lead Graphic Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Customized designs for school uniforms, sports kits, and branded items.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Prepared apparel mock-ups, proofs, and final production files.
+          </>,
+             <>
+            Supported embroidery digitizing and heat press print layouts.
+          </>,
+          <>
+           Communicated directly with production and printing departments to avoid delays.
           </>,
         ],
         images: [],
       },
+      {
+        company: "Genuine Connection",
+        timeframe: "04/2015 - 07/2018",
+        role: "Graphic Designer",
+        achievements: [
+          <>
+            Created factory-ready artwork for screen printing, embroidery, and sublimation.
+          </>,
+          <>
+            Developed branding for client apparel including logos, labels, and swing tags.
+          </>,
+            <>
+            Produced high-quality mock-ups for client approval and internal production.
+          </>,
+          <>
+            Assisted in product development and design planning with sales and factory.
+          </>,
+        ],
+        images: [
+      
+        ],
+      },
+      {
+        company: "Xanita",
+        timeframe: "01/2010 - 03/2015",
+        role: "Graphic Designer",
+        achievements: [
+          <>
+            Designed POS displays, exhibition booths, and retail units from Xanita board.
+          </>,
+          <>
+            Translated client briefs into functional, eco-friendly visual solutions.
+          </>,
+             <>
+            Built die-lines and vector layouts for CNC cutting, folding, and assembly.
+          </>,
+          <>
+           Created instructional visuals and assembly guides for installers and clients.
+          </>,
+        ],
+        images: [],
+      },
+      
     ],
+    
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Prestige College",
+        description: <>Diploma in Graphic Web Design.</>,
       },
       {
         name: "Build the Future",
@@ -214,6 +262,16 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
+
+  const slck1 = {
+  path: "/slck1",
+  label: "slck1",
+  title: `slck1 – ${person.name}`,
+  description: `slck1 Design and dev projects by ${person.name}`,
+  // Create new project pages by adding a new .mdx file to app/blog/posts
+  // All projects will be listed on the /home and /work routes
+            };
+
 const gallery = {
   path: "/gallery",
   label: "Gallery",
@@ -221,6 +279,7 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
+
   images: [
     {
       src: "/images/gallery/horizontal-1.jpg",
@@ -263,6 +322,7 @@ const gallery = {
       orientation: "vertical",
     },
   ],
+  
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery, slck1 };

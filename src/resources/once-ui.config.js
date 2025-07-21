@@ -1,7 +1,7 @@
 import { home } from "./content";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL = "https://demo.magic-portfolio.com";
+const baseURL = "https://slck1.vercel.app"
 
 const routes = {
   "/": true,
@@ -9,6 +9,7 @@ const routes = {
   "/work": true,
   "/blog": true,
   "/gallery": true,
+  "/slck1": false
 };
 
 const display = {
