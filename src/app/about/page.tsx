@@ -160,13 +160,13 @@ export default function About() {
                                 href={item.link}
                                 prefixIcon={item.icon}
                                 label={item.name}
-                                size="s"
+                                size="xs"
                                 weight="default"
                                 variant="secondary"
                             />
                             <IconButton
                                 className="s-flex-show"
-                                size="l"
+                                size="0.5"
                                 key={`${item.name}-icon`}
                                 href={item.link}
                                 icon={item.icon}

@@ -58,7 +58,7 @@ export const HeadingLink: React.FC<HeadingLinkProps> = ({ id, level, children, s
       </Heading>
       <IconButton
         className={styles.visibility}
-        size="s"
+        size="xs"
         icon="openLink"
         variant="ghost"
         tooltip="Copy"

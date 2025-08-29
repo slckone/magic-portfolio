@@ -56,15 +56,17 @@ const home = {
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Building bridges between design and code</>,
+ 
+  
   featured: {
     display: true,
     title: <>Download <strong className="ml-4">My CV</strong></>,
     href: "/images/CV_Resume.pdf",
   },
+  
   subline: (
     <>
-      I'm Rieddiwaan Laatoe, a graphic designer at   <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.10em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Rieddiwaan Laatoe, a graphic web designer at <Logo icon="/trademarks/wordmark-dark.svg" light src="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.20em", marginLeft: "-0.05em" }}/>, where I craft intuitive, unique & immersive user experiences. After hours, I code & build my own dev projects.
     </>
   ),
 };
@@ -199,28 +201,40 @@ const about = {
         description: <>Diploma in Graphic Web Design.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Bergrivier Senior High",
+        description: <>Senior Certificate. (Matric)</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "My work",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Section 1",
+        description: <>Short description of content goes here.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/image-08.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/image-05.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+            {
+            src: "/images/projects/project-01/image-14.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/image-10.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -228,12 +242,18 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Section 2",
+        description: <>Short description of content goes here.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+              {
+            src: "/images/projects/project-01/cover-06.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -247,7 +267,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about design trends, tech & more...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -292,17 +312,32 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
       src: "/images/gallery/horizontal-4.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/video-1.mp4",
+      alt: "video",
+      orientation: "horizontal",
+    },
+      {
+      src: "/images/gallery/horizontal-3.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/video-2.mp4",
+      alt: "video",
+      orientation: "horizontal",
+    }, 
+    {
+      src: "/images/gallery/vertical-3.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+      {
+      src: "/images/gallery/vertical-4.jpg",
       alt: "image",
       orientation: "vertical",
     },
@@ -311,13 +346,18 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/vertical-3.jpg",
+      {
+      src: "/images/gallery/vertical-garments.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/vertical-1.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/vertical-garments_2.jpg",
       alt: "image",
       orientation: "vertical",
     },
